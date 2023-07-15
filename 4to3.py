@@ -4,7 +4,7 @@ from time import sleep
 try:
   from pydub import AudioSegment
 except ModuleNotFoundError:
-   print("{red}[{grn}+{red}]{grn} Installing requirements...")
+   print(f"{red}[{grn}+{red}]{grn} Installing requirements...")
    os.system("pip install pydub")
 
 ###Colors
