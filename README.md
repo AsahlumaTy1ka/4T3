@@ -7,7 +7,7 @@ To install 4T3 follow below steps:
 #### One command 
 
 ```bash
-$ apt update && apt install git && apt install python && git clone https://github.com/AsahlumaTy1ka/4T3/
+$ apt update && apt install git && apt install python && pip install colorama && git clone https://github.com/AsahlumaTy1ka/4T3/
 ```
 
 #### Step by Step
@@ -16,6 +16,7 @@ $ apt update && apt install git && apt install python && git clone https://githu
 $ apt update
 $ apt install python
 $ apt install git
+$ pip install colorama
 $ git clone https://github.com/AsahlumaTy1ka/4T3/
 ```
 
