@@ -4,28 +4,30 @@
 ## Installation
 To install 4T3 follow below steps:
 
-##### One command 
+#### One command 
 
 ```bash
-$ apt update && apt install python && git clone https://github.com/AsahlumaTy1ka/4T3/
+$ apt update && apt install git && apt install python && git clone https://github.com/AsahlumaTy1ka/4T3/
 ```
 
-##### Ste
+#### Step by Step
+
+```bash
+$ apt update
+$ apt install python
+$ apt install git
+$ git clone https://github.com/AsahlumaTy1ka/4T3/
+```
 
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+$ cd 4T3
+$ python 4to3.py
 ```
+
+## Screenshots [Termux]
+
 
 ## Contributing
 
